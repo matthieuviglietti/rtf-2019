@@ -1,0 +1,212 @@
+/*
+Theme Name: Divi_child
+Description: Theme enfant de Matthieu
+Author: Matthieu Viglietti
+Author URI: https://www.elegantthemes.com
+Template: Divi
+Version: 3.21
+*/
+
+/*menu adherer*/
+.et_menu_container #et-top-navigation #top-menu-nav #top-menu #menu-item-104 a{
+  color: #db3e5b !important;
+  border: 1px solid #db3e5b;
+  padding: 5px;
+}
+
+#top-menu li.current-menu-item>a{
+  color: #db3e5b;
+}
+
+#top-menu li.current-menu-ancestor>a{
+  color: #db3e5b!important;
+}
+/*icones réseaux sociaux*/
+.et_pb_social_media_follow li a.icon::before {
+    display: block;
+    position: relative;
+    z-index: 10;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 70px;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+}
+
+.et_pb_social_media_follow li a.icon {
+    box-sizing: content-box;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+}
+
+.et_pb_social_media_follow li a {
+    display: inline-block;
+    position: relative;
+    margin-right: 60px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+}
+
+.et_pb_social_media_follow li a:nth-last-child() {
+    display: inline-block;
+    position: relative;
+    margin-right: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+}
+
+.et_pb_social_media_follow li a.follow_button {
+    margin-top: 8px;
+    /* margin-right: 25px; */
+    padding: 0 12px;
+    border-radius: 3px;
+    color: rgba(0,0,0,.5);
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 1.6em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    display: block;
+}
+
+/*événement*/
+.et_pb_module.et_pb_blog_1.et_pb_posts.et_pb_bg_layout_light h2 {
+    display: none;
+}
+
+.et_pb_module.et_pb_blog_1.et_pb_posts.et_pb_bg_layout_light .post-content {
+    display: none;
+}
+
+.et_pb_module.et_pb_blog_1.et_pb_posts.et_pb_bg_layout_light .et_pb_post a img {
+    max-width: 50%;
+    margin-left: 19%;
+}
+
+.et_pb_module.et_pb_blog_0.et_pb_posts.et_pb_bg_layout_light .more-link {
+    margin-bottom: 135px;
+}
+
+.et_menu_container {
+    z-index: 99;
+    min-height: 80px;
+}
+
+/*footer ligne noire*/
+#footer-bottom{
+  display: none;
+}
+
+@media (min-width: 981px){
+.et_pb_gutters1.et_pb_footer_columns1 .footer-widget .fwidget {
+    margin-bottom: 10px;
+    width: 100%!important;
+    text-align: center!important;
+}
+}
+
+.entry-content .et-boc div.et_pb_section.et_pb_section_4.et_section_regular {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px!important;
+    padding-left: 0px;
+}
+
+footer div#footer-widgets {
+    padding: 2% 0 2%!important;
+}
+
+/*bloom*/
+.et_bloom .et_bloom_1_field p.et_bloom_popup_input {
+    width: 100%!important;
+    padding-right: 0!important;
+    margin-bottom: 20px!important;
+    display: block;
+}
+
+input#pcheck1 {
+    width: 10px;
+    display: inline-block;
+}
+
+a#consent {
+    color: white;
+}
+
+.et_bloom_form_text span.s1{
+  font-size: 2em!important;
+  font-weight: bold!important;
+}
+
+button.et_bloom_submit_subscription {
+    width: 100%!important;
+}
+
+.et_bloom .et_bloom_form_container.et_bloom_form_text_light .et_bloom_form_content .et_bloom_submit_subscription span.et_bloom_button_text.et_bloom_button_text_color_dark{
+  color: #db3e5b!important;
+}
+
+span.et_bloom_button_text.et_bloom_button_text_color_light{
+  width: 100%!important;
+  height: 2.5em!important;
+  line-height: 2.5em!important;
+}
+
+/*footer*/
+
+#rs_footer li.et_pb_social_icon a{
+  margin-right: 5px!important;
+}
+
+/*responsive*/
+
+@media (max-width: 767px){
+  .social-title .et_pb_text_inner div h2 span {
+    color: #db3e5b!important;
+  }
+}
+
+@media (max-width: 550px){
+  .et_header_style_left .logo_container #logo, .et_header_style_split #logo {
+    max-width: 35%!important;
+    width: 35%!important;
+    height: auto!important;
+  }
+}
+
+@media (max-width: 980px){
+  .container.clearfix.et_menu_container{
+    height: 150px!important;
+    min-height: 150px!important;
+  }
+  .et_header_style_left #logo, .et_header_style_split #logo {
+    max-width: 20%!important;
+    width: 20%!important;
+    height: auto!important;
+  }
+  #logo {
+    display: inline-block;
+    float: none;
+    max-height: none;
+    margin-bottom: 0;
+    vertical-align: middle;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: translate3d(0,0,0);
+  }
+  #parrain {
+    min-height: 400px;
+  }
+}
+
+body:not(.page-id-91) #tarteaucitronAlertSmall {
+  display: none !important;
+}
